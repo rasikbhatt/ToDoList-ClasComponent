@@ -1,0 +1,46 @@
+.listTask {
+	width: 90%;
+	padding: 10px;
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	background-color: whitesmoke;
+	border-radius: 0.5rem;
+}
+
+.taskContent {
+	width: 80%;
+	overflow: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	padding: 5px;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	border: 1px solid grey;
+	background-color: grey;
+	color: whitesmoke;
+}
+.taskContent::-webkit-scrollbar {
+	display: none;
+}
+
+.submitButton {
+	cursor: pointer;
+	padding: 5px;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+	border: 1px solid grey;
+	background-color: grey;
+	color: whitesmoke;
+}
+.submitButton:hover {
+	transform: scale(1.3);
+	color: white;
+	background-color: black;
+	transition: 1000ms;
+}
